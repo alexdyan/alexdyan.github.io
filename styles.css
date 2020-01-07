@@ -76,7 +76,7 @@ h2 { /* video titles */
 p {
 	margin-left: 5%;
 	margin-right: 5%;
-	line-height: 120%;
+	line-height: 150%;
 }
 p > a:link, p > a:visited {
 	text-decoration: underline;
