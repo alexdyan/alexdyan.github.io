@@ -113,11 +113,7 @@ div.myImage {
 	width: 100%;
 	text-align: center;
 }
-img.socialMedia {
-	width: 75%;
-	height: auto;
-}
-img { /* content inside the divs */
+img {  /* content inside the divs */
 	width: 98%;
 	height: auto;
 }
@@ -139,11 +135,20 @@ footer {
 	margin-top: 10%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	padding-left: 35%;
-	padding-right: 35%;
 	background-color: #fa3e3e;
+}
+div.socialMedia {
+	margin-right: 30%;
+	margin-left: 30%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+a.socialMedia {
+	text-align: center;
+}
+img.socialMedia {
+	width: 75%;
+	height: auto;
 }
 
 
@@ -171,7 +176,8 @@ footer {
 		grid-template-areas:
 			"a b"
 			"c d"
-			"e f";
+			"e f"
+			"g .";
 	}
 /***************************************************/
 	p {
